@@ -1,0 +1,16 @@
+{
+    "go.buildFlags": [
+        "-tags='sqlite_vtable,sqlite_json1'"
+    ],
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.vetFlags": [
+        "-tags='sqlite_vtable,sqlite_json1'"
+    ],
+    "go.toolsEnvVars": {
+        "GOFLAGS": "-tags='sqlite_vtable,sqlite_json1'"
+    },
+    "go.testTimeout": "120s",
+    "go.testEnvFile": "${workspaceFolder}/.env"
+}
